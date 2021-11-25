@@ -1,0 +1,31 @@
+### Linux安装Oracle
+
+---
+
+前期Linux硬盘空间检查省略
+
+-- root 用户执行
+
+1. 创建 oracle 用户，oinstall 组，dba组
+
+   ```sh
+   groupadd oinstall
+   groupadd dba
+   useradd -g oinstall -G dba oracle --创建 oracle 用户，主组 dba,副组 oinstall 
+   passwd oracle --设置 oracle 密码
+   ```
+
+   解释：
+
+2. 建立安装目录
+
+   ```sh
+   mkdir /usr/local/oracle11 --该目录下新建三个目录
+   
+   
+   ```
+
+   
+
+3. 
+
